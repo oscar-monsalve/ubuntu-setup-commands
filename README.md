@@ -1,3 +1,5 @@
+# After-installation Ubuntu commands
+
 1. sudo apt update
 2. sudo apt upgrade
 3. sudo apt-get install build-essential
