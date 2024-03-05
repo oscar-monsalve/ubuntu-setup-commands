@@ -16,6 +16,7 @@
     [pycodestyle]
     max-line-length = 110
     ```
+    The number after "=" sets the maximum length of a line in python to trigger the warning.
 
 Install curl:
 sudo apt install curl
