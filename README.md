@@ -9,6 +9,14 @@
     - sudo apt install python3-numpy
     - sudo apt install python3-matplotlib
 
+5. Steps to change the default max-line-length for the python lsp sever:
+    - Create the file `pycodestyle` in the directory `~/.config/pycodestyle`
+    - In `pycodestyle`, write:
+    ```python
+    [pycodestyle]
+    max-line-length = 110
+    ```
+
 Install curl:
 sudo apt install curl
 
