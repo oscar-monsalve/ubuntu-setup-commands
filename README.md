@@ -49,3 +49,12 @@ Vimtex installation:
 - sudo apt-get install biber
 - sudo apt install zathura
 - sudo apt install okular
+
+
+## Install AnyDesk (Ubuntu)
+
+1. Download the .deb file from the AnyDesk webpage.
+2. Using the terminal, in the directory of the .deb file, paste:
+   ```
+   sudo apt --fix-broken install /home/om/Downloads/anydesk/anydesk_6.3.1-1_amd64.deb
+   ```
