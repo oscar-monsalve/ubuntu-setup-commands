@@ -40,9 +40,7 @@ sudo apt install ripgrep
 Install python virtual environment (requierement for python in nvim):
 sudo apt install python3-venv
 
-Now can begin the neovim installation
-
-Vimtex installation:
+Vimtex installation (Optional):
 - sudo apt-get update
 - sudo apt-get install latexmk
 - sudo apt-get install xdotool
@@ -50,11 +48,19 @@ Vimtex installation:
 - sudo apt install zathura
 - sudo apt install okular
 
+## Install neovim (Ubuntu)
+```
+sudo apt install neovim
+```
 
 ## Install AnyDesk (Ubuntu)
 
 1. Download the .deb file from the AnyDesk webpage.
 2. Using the terminal, in the directory of the .deb file, paste:
-   ```
-   sudo apt --fix-broken install /home/om/Downloads/anydesk/anydesk_6.3.1-1_amd64.deb
-   ```
+```
+sudo apt --fix-broken install /home/om/Downloads/anydesk/anydesk_6.3.1-1_amd64.deb
+```
+NOTE: check for the latest .deb package.
+
+## Solve the hour difference netween Windows and Ubuntu (Dual-boot)
+https://www.youtube.com/watch?v=lA3kNvI6WGU
