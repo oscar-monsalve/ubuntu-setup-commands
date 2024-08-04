@@ -5,9 +5,10 @@
 3. sudo apt-get install build-essential
 
 4. To install a package from python:
-    - sudo apt install python3-pip
+    - sudo apt install python3-pip (optional)
     - sudo apt install python3-numpy
     - sudo apt install python3-matplotlib
+    - sudo apt install python3-scienceplots
 
 5. Steps to change the default max-line-length for the python lsp sever:
     - Create the file `pycodestyle` in the directory `~/.config/pycodestyle`
