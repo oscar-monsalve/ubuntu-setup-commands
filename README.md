@@ -10,6 +10,17 @@
     - sudo apt install python3-matplotlib
     - sudo apt install python3-scienceplots
 
+    If there are problems using pip3 installing a python package like: "error: externally-managed-environment",
+    use pipx instead:
+
+    ```
+    sudo apt install pipx
+    ```
+
+    ```
+    pipx install <package-name>
+    ```
+
 5. Steps to change the default max-line-length for the python lsp sever:
     - Create the file `pycodestyle` in the directory `~/.config/pycodestyle`
     - In `pycodestyle`, write:
