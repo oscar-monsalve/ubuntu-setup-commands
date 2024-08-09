@@ -77,7 +77,9 @@ NOTE: check for the latest .deb package.
 ## Solve the hour difference netween Windows and Ubuntu (Dual-boot)
 https://www.youtube.com/watch?v=lA3kNvI6WGU
 
-## Firefox -> open tab in background
+## Firefox config
+
+### Open tab in background
 
 1. Open Firefox
 2. In the search bar, type and accept the dialog:
@@ -89,3 +91,18 @@ about:config
 browser.tabs.loadBookmarksInBackground
 ```
 4. If the configuration is set to *false*, change it to *true*.
+
+### Avoid opening a bookmark closes its menu or folder
+
+To avoid the bookmark's menus to close when opening a bookmark, do:
+
+1. Open Firefox
+2. In the search bar, type and accept the dialog:
+```
+about:config
+```
+3. Search:
+```
+browser.bookmarks.openInTabClosesMenu
+```
+4. If the configuration is set to *true*, change it to *false*.
