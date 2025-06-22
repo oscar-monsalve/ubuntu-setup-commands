@@ -155,16 +155,6 @@ max-line-length = 110
 ```
 
 
-### Inkscape
-
-```shell
-sudo add-apt-repository universe
-sudo add-apt-repository ppa:inkscape.dev/stable
-sudo apt-get update
-sudo apt install inkscape
-```
-
-
 ### Albert spotlight-like finder
 
 ```shell
@@ -172,6 +162,16 @@ echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbunt
 curl -fsSL https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_24.10/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_manuelschneid3r.gpg > /dev/null
 sudo apt update
 sudo apt install albert
+```
+
+
+### Inkscape
+
+```shell
+sudo add-apt-repository universe
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt-get update
+sudo apt install inkscape
 ```
 
 
@@ -184,7 +184,14 @@ sudo apt-get update && sudo apt-get install spotify-client
 ```
 
 
-### Install AnyDesk (Ubuntu)
+### Arduino-cli
+
+[arduino_language_server.lua](https://github.com/neovim/nvim-lspconfig/blob/master/lsp/arduino_language_server.lua)
+[arduino-cli installation](https://arduino.github.io/arduino-cli/1.2/installation/)
+[arduino-language-server](https://github.com/arduino/arduino-language-server)
+
+
+### AnyDesk (Ubuntu)
 
 1. Download the .deb file from the AnyDesk webpage.
 2. Using the terminal, in the directory of the .deb file, paste:
