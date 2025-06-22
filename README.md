@@ -1,28 +1,26 @@
 # After-installation Ubuntu commands
 
-1. Essentials:
+## Essentials:
 
-```shell
-sudo apt-get update && sudo apt-get upgrade
-```
+    ```shell
+    sudo apt-get update && sudo apt-get upgrade
+    ```
 
-```shell
-sudo apt-get update && sudo apt-get upgrade
-```
+    ```shell
+    sudo apt update && sudo apt upgrade
+    ```
 
-```shell
-sudo apt-get install build-essential
-```
+    ```shell
+    sudo apt-get install build-essential
+    ```
 
-```shell
-sudo apt install curl
-```
+    ```shell
+    sudo apt install curl git fd-find ripgrep python3-venv xclip btop
+    ```
 
-```shell
-sudo apt install git
-```
 
-zsh shell and oh-my-zsh. **Logout to see zsh as default shell**.
+## zsh shell and oh-my-zsh. **Logout to see zsh as default shell**.
+
 ```shell
 sudo apt install zsh
 ```
@@ -36,24 +34,22 @@ chsh -s $(which zsh)
 ```
 
 
+
+
+
+## Install neovim (Ubuntu)
 ```shell
-sudo apt install fd-find
+sudo apt install neovim
 ```
 
+Vimtex.nvim installation:
 ```shell
-sudo apt install ripgrep
+- sudo apt-get update && sudo apt-get install latexmk xdotool biber okular
 ```
 
-python3-venv is required for python in neovim:
-```shell
-sudo apt install python3-venv
-```
 
-sudo apt instal xclip
+## Install python libs:
 
-sudo apt install btop
-
-4. Install python libs:
     - sudo apt install python3-pip (optional)
     - sudo apt install python3-numpy
     - sudo apt install python3-matplotlib
@@ -70,25 +66,13 @@ sudo apt install btop
     pipx install <package-name>
     ```
 
-5. Steps to change the default max-line-length for the python lsp sever:
+5. python-lsp-sever change default max-line-length:
     - Create the file `pycodestyle` in the directory `~/.config/pycodestyle`
     - In `pycodestyle`, write:
     ```python
     [pycodestyle]
     max-line-length = 110
     ```
-
-
-
-## Install neovim (Ubuntu)
-```shell
-sudo apt install neovim
-```
-
-Vimtex.nvim installation:
-```shell
-- sudo apt-get update && sudo apt-get install latexmk xdotool biber okular
-```
 
 
 ## Install AnyDesk (Ubuntu)
