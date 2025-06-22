@@ -118,7 +118,7 @@ Create the file `pycodestyle` in the directory `~/.config/pycodestyle`. In `pyco
 
 ```python
 [pycodestyle]
-ignore = E302
+ignore = E302, E241
 max-line-length = 110
 ```
 
