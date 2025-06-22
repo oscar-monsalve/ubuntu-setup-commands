@@ -39,6 +39,7 @@ chsh -s $(which zsh)
 
 ### Install neovim (Ubuntu)
 
+lua 5.1.5:
 ```shell
 curl -L -R -O https://www.lua.org/ftp/lua-5.1.5.tar.gz
 ```
@@ -55,16 +56,52 @@ cd lua-5.1.5.tar.gz
 make all test
 ```
 
-
+luarocks 3.11.1
+```shell
+wget https://luarocks.org/releases/luarocks-3.11.1.tar.gz
+```
 
 ```shell
-sudo apt install neovim
+tar zxpf luarocks-3.11.1.tar.gz
+```
+
+```shell
+cd luarocks-3.11.1
+```
+
+```shell
+./configure && make && sudo make install
+```
+
+```shell
+sudo luarocks install luasocket
+```
+
+```shell
+lua
+```
+
+Lua 5.3.5 Copyright (C) 1994-2018 Lua.org, PUC-Rio
+```shell
+require "socket"
+```
+
+neovim:
+```shell
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
+sudo rm -rf /opt/nvim
+sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
 ```
 
 Vimtex.nvim installation:
 ```shell
 - sudo apt-get update && sudo apt-get install latexmk xdotool biber okular
 ```
+
+
+### fzf
+
+
 
 
 ### Install python libs
