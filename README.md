@@ -32,6 +32,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 
 ```shell
+chsh -s $(which zsh)
+```
+
+Logout to see zsh shell change.
+
+```shell
 sudo apt install fd-find
 ```
 
