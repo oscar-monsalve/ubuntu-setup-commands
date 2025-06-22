@@ -19,7 +19,7 @@ sudo apt install curl git fd-find ripgrep python3-venv xclip btop
 ```
 
 
-### zsh shell and oh-my-zsh. **Logout to see zsh as default shell**.
+### zsh shell and oh-my-zsh. Logout to set changes
 
 ```shell
 sudo apt install zsh
@@ -34,7 +34,29 @@ chsh -s $(which zsh)
 ```
 
 
+### lua5.1 and luarocks
+
+
 ### Install neovim (Ubuntu)
+
+```shell
+curl -L -R -O https://www.lua.org/ftp/lua-5.1.5.tar.gz
+```
+
+```shell
+tar zxf lua-5.4.8.tar.gz
+```
+
+```shell
+cd lua-5.1.5.tar.gz
+```
+
+```shell
+make all test
+```
+
+
+
 ```shell
 sudo apt install neovim
 ```
@@ -45,7 +67,7 @@ Vimtex.nvim installation:
 ```
 
 
-### Install python libs:
+### Install python libs
 
 ```shell
 sudo apt install python3-numpy
@@ -56,7 +78,15 @@ sudo apt install python3-matplotlib
 ```
 
 ```shell
+sudo apt install python3-pytest
+```
+
+```shell
 sudo apt install python3-scienceplots
+```
+
+```shell
+sudo apt install python3-prettytable
 ```
 
 ```shell
@@ -79,6 +109,7 @@ Create the file `pycodestyle` in the directory `~/.config/pycodestyle`. In `pyco
 
 ```python
 [pycodestyle]
+ignore = E302
 max-line-length = 110
 ```
 
