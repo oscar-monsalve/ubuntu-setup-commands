@@ -187,7 +187,9 @@ sudo apt-get update && sudo apt-get install spotify-client
 ### Arduino-cli
 
 [arduino_language_server.lua](https://github.com/neovim/nvim-lspconfig/blob/master/lsp/arduino_language_server.lua)
+
 [arduino-cli installation](https://arduino.github.io/arduino-cli/1.2/installation/)
+
 [arduino-language-server](https://github.com/arduino/arduino-language-server)
 
 
