@@ -1,7 +1,9 @@
 # After-installation Ubuntu commands
 
-1. sudo apt update
-2. sudo apt upgrade
+```shell
+sudo apt update && sudo apt upgrade
+```
+
 3. sudo apt-get install build-essential
 
 4. To install a package from python:
@@ -36,11 +38,8 @@ sudo apt install curl
 Install git:
 sudo apt install git
 
-Install neofetch:
-sudo apt install neofetch
-
-Install htop:
-sudo apt install htop
+Install btop:
+sudo apt install btop
 
 Install zsh shell and oh-my-zsh:
 - sudo apt install zsh
