@@ -189,6 +189,13 @@ sudo apt-get update && sudo apt-get install spotify-client
 ```
 
 
+### Gimp
+
+```shell
+sudo apt install gimp
+```
+
+
 ### Arduino-cli
 
 [arduino_language_server.lua](https://github.com/neovim/nvim-lspconfig/blob/master/lsp/arduino_language_server.lua)
