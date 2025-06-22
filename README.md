@@ -159,6 +159,11 @@ sudo apt install pipx
 pipx install <package-name>
 ```
 
+Python generate lib requirements.txt:
+```shell
+pipx install pipreqs
+```
+
 
 ### Albert spotlight-like finder
 
