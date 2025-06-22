@@ -37,7 +37,7 @@ chsh -s $(which zsh)
 echo $SHELL
 ```
 
-### Install neovim (Ubuntu)
+### Ghostty
 
 [Ghostty terminal](https://ghostty.org/download)
 
