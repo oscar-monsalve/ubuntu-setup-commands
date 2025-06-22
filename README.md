@@ -1,12 +1,54 @@
 # After-installation Ubuntu commands
 
+1. Essentials:
+
 ```shell
-sudo apt update && sudo apt upgrade
+sudo apt-get update && sudo apt-get upgrade
 ```
 
-3. sudo apt-get install build-essential
+```shell
+sudo apt-get update && sudo apt-get upgrade
+```
 
-4. To install a package from python:
+```shell
+sudo apt-get install build-essential
+```
+
+```shell
+sudo apt install curl
+```
+
+```shell
+sudo apt install git
+```
+
+zsh shell and oh-my-zsh:
+```shell
+sudo apt install zsh
+```
+
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+```shell
+sudo apt install fd-find
+```
+
+```shell
+sudo apt install ripgrep
+```
+
+python3-venv is required for python in neovim:
+```shell
+sudo apt install python3-venv
+```
+
+sudo apt instal xclip
+
+sudo apt install btop
+
+4. Install python libs:
     - sudo apt install python3-pip (optional)
     - sudo apt install python3-numpy
     - sudo apt install python3-matplotlib
@@ -30,39 +72,19 @@ sudo apt update && sudo apt upgrade
     [pycodestyle]
     max-line-length = 110
     ```
-    The number after "=" sets the maximum length of a line in python to trigger the warning.
 
-Install curl:
-sudo apt install curl
 
-Install git:
-sudo apt install git
-
-Install btop:
-sudo apt install btop
-
-Install zsh shell and oh-my-zsh:
-- sudo apt install zsh
-- sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-Install ripgrep:
-sudo apt install ripgrep
-
-Install python virtual environment (requierement for python in nvim):
-sudo apt install python3-venv
-
-Vimtex installation (Optional):
-- sudo apt-get update
-- sudo apt-get install latexmk
-- sudo apt-get install xdotool
-- sudo apt-get install biber
-- sudo apt install zathura
-- sudo apt install okular
 
 ## Install neovim (Ubuntu)
-```
+```shell
 sudo apt install neovim
 ```
+
+Vimtex.nvim installation:
+```shell
+- sudo apt-get update && sudo apt-get install latexmk xdotool biber okular
+```
+
 
 ## Install AnyDesk (Ubuntu)
 
@@ -75,6 +97,7 @@ NOTE: check for the latest .deb package.
 
 ## Solve the hour difference netween Windows and Ubuntu (Dual-boot)
 https://www.youtube.com/watch?v=lA3kNvI6WGU
+
 
 ## Firefox config
 
