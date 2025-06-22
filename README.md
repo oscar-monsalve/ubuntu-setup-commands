@@ -34,9 +34,6 @@ chsh -s $(which zsh)
 ```
 
 
-### lua5.1 and luarocks
-
-
 ### Install neovim (Ubuntu)
 
 lua 5.1.5:
@@ -81,7 +78,6 @@ sudo luarocks install luasocket
 lua
 ```
 
-Lua 5.3.5 Copyright (C) 1994-2018 Lua.org, PUC-Rio
 ```shell
 require "socket"
 ```
@@ -101,7 +97,10 @@ Vimtex.nvim installation:
 
 ### fzf
 
-
+```shell
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
 
 
 ### Install python libs
@@ -148,6 +147,35 @@ Create the file `pycodestyle` in the directory `~/.config/pycodestyle`. In `pyco
 [pycodestyle]
 ignore = E302
 max-line-length = 110
+```
+
+
+### Inkscape
+
+```shell
+sudo add-apt-repository universe
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt-get update
+sudo apt install inkscape
+```
+
+
+### Albert spotlight-like finder
+
+```shell
+echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_24.10/ /' | sudo tee /etc/apt/sources.list.d/home:manuelschneid3r.list
+curl -fsSL https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_24.10/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_manuelschneid3r.gpg > /dev/null
+sudo apt update
+sudo apt install albert
+```
+
+
+### Spotify
+
+```shell
+curl -sS https://download.spotify.com/debian/pubkey_C85668DF69375001.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
+echo "deb https://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update && sudo apt-get install spotify-client
 ```
 
 
