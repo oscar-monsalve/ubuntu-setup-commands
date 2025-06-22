@@ -22,7 +22,7 @@ sudo apt install curl
 sudo apt install git
 ```
 
-zsh shell and oh-my-zsh:
+zsh shell and oh-my-zsh. **Logout to see zsh as default shell**.
 ```shell
 sudo apt install zsh
 ```
@@ -35,7 +35,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 chsh -s $(which zsh)
 ```
 
-Logout to see zsh shell change.
 
 ```shell
 sudo apt install fd-find
