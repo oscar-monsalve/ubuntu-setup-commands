@@ -111,7 +111,18 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ```
 
 
-### Install python libs
+### Python
+
+Python-lsp-sever change default max-line-length:
+Create the file `pycodestyle` in the directory `~/.config/pycodestyle`. In `pycodestyle`, write:
+
+```python
+[pycodestyle]
+ignore = E302
+max-line-length = 110
+```
+
+Install python libs:
 
 ```shell
 sudo apt install python3-numpy
@@ -146,15 +157,6 @@ sudo apt install pipx
 
 ```shell
 pipx install <package-name>
-```
-
-Python-lsp-sever change default max-line-length:
-Create the file `pycodestyle` in the directory `~/.config/pycodestyle`. In `pycodestyle`, write:
-
-```python
-[pycodestyle]
-ignore = E302
-max-line-length = 110
 ```
 
 
