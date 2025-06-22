@@ -36,6 +36,11 @@ chsh -s $(which zsh)
 
 ### Install neovim (Ubuntu)
 
+[Ghostty terminal](https://ghostty.org/download)
+
+
+### Install neovim (Ubuntu)
+
 lua 5.1.5:
 ```shell
 curl -L -R -O https://www.lua.org/ftp/lua-5.1.5.tar.gz
