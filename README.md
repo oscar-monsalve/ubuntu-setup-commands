@@ -118,8 +118,8 @@ Create the file `pycodestyle` in the directory `~/.config/pycodestyle`. In `pyco
 
 ```python
 [pycodestyle]
-ignore = E302, E241
-max-line-length = 110
+ignore = E302, E241, E226
+max-line-length = 500
 ```
 
 Install python libs:
@@ -159,19 +159,9 @@ sudo apt install pipx
 pipx install <package-name>
 ```
 
-<<<<<<< HEAD
 Python generate lib requirements.txt:
 ```shell
 pipx install pipreqs
-=======
-Python-lsp-sever change default max-line-length:
-Create the file `pycodestyle` in the directory `~/.config/pycodestyle`. In `pycodestyle`, write:
-
-```python
-[pycodestyle]
-ignore = E302, E241
-max-line-length = 110
->>>>>>> 2d15f2a (update)
 ```
 
 
