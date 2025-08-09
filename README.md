@@ -102,6 +102,15 @@ Vimtex.nvim installation:
 - sudo apt-get update && sudo apt-get install latexmk xdotool biber okular
 ```
 
+in Arch Linux:
+```shell
+sudo pacman -S texlive-bin texlive-binextra texlive-core texlive-latexextra biber nodejs npm
+```
+
+```shell
+yay -S biber
+```
+
 
 ### fzf
 
